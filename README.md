@@ -1,9 +1,4 @@
-# XRayR
-A Xray backend framework that can easily support many panels.
 
-一个基于Xray的后端框架，支持V2ay,Trojan,Shadowsocks协议，极易扩展，支持多面板对接
-
-Find the source code here: [XrayR-project/XrayR](https://github.com/XrayR-project/XrayR)
 
 # 手动安装
 
@@ -15,11 +10,14 @@ Find the source code here: [XrayR-project/XrayR](https://github.com/XrayR-projec
 大于 go 1.19
 依次运行
 
+```
 git clone https://github.com/XrayR-project/XrayR
 cd XrayR/main
 go mod tidy
 go build -o XrayR -ldflags "-s -w"
 ./XrayR -config config.yml
+```
+
 [配置文件说明](https://xrayr-project.github.io/XrayR-doc/xrayr-pei-zhi-wen-jian-shuo-ming/config.html)
 
 # 详细使用教程
