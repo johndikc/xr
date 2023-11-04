@@ -5,6 +5,23 @@ A Xray backend framework that can easily support many panels.
 
 Find the source code here: [XrayR-project/XrayR](https://github.com/XrayR-project/XrayR)
 
+# 手动安装
+
+手动安装
+下载并使用
+在此处，根据自身系统选择合适的版本：Release
+解压压缩包，之后运行：./XrayR -config config.yml
+编译并使用
+大于 go 1.19
+依次运行
+
+git clone https://github.com/XrayR-project/XrayR
+cd XrayR/main
+go mod tidy
+go build -o XrayR -ldflags "-s -w"
+./XrayR -config config.yml
+[配置文件说明](https://xrayr-project.github.io/XrayR-doc/xrayr-pei-zhi-wen-jian-shuo-ming/config.html)
+
 # 详细使用教程
 
 [教程](https://xrayr-project.github.io/XrayR-doc/)
