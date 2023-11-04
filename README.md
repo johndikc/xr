@@ -5,7 +5,8 @@
 手动安装
 下载并使用
 在此处，根据自身系统选择合适的版本：Release
-解压压缩包，之后运行：```./XrayR -config config.yml```
+解压压缩包，之后运行：
+```./XrayR -config config.yml```
 编译并使用
 大于 go 1.19
 依次运行
