@@ -30,7 +30,7 @@ go build -o XrayR -ldflags "-s -w"
 # 一键安装
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/XrayR-project/XrayR-release/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/johndikc/xr/main/install.sh)
 ```
 # Docker 安装
 
